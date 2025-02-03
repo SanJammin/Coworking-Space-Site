@@ -43,10 +43,14 @@ h1 {
 
 .item-img {
     width: 100%;
+    display: block;
 }
 
 .caption {
     margin: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px
 }
 
 .item {
@@ -69,4 +73,5 @@ button {
     padding: 10px 15px;
     font-weight: 700;
     cursor: pointer;
+    margin: auto 0;
 }

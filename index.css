@@ -12,8 +12,14 @@ nav {
 ul {
     margin: 0;
     display: flex;
-    list-style: none;
+    list-style-type: none;
     padding: 25px;
+    align-items: center;
+    gap: 10px;
+}
+
+li {
+    cursor: pointer;
 }
 
 .logo {
@@ -23,7 +29,6 @@ ul {
 
 .icon {
     width: 25px;
-    margin-left: 10px;
 }
 
 h1 {
